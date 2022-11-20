@@ -70,7 +70,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("my first flutter"),
+          title: const Text("Quiz"),
         ),
         body: _questionIndex < _questions.length
             ? Quiz(
